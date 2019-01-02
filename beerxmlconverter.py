@@ -108,7 +108,7 @@ for category in root.iter('category'):
                                     abvhigh = abv.text
                                     styleDict["ABV_MAX"] = abvhigh
                                 if(abv.tag == "low"):
-                                    abvlow = srm.text
+                                    abvlow = abv.text
                                     styleDict["ABV_MIN"] = abvlow
 
 #            print(name)                             # NAME
